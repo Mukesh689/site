@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(240, 224, 193);
+            color:black;
+            width: 100%;
+            /* height: 100vh; */
+            font-family: Arial, sans-serif;
+        }
+        h1{
+            background:linear-gradient(to right,red,blue);
+            background-clip: text;
+            color:transparent;
+        }
+
+        .logo {
+            border-radius: 20%;
+            float: left;
+        }
+        .name {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+        .name::first-letter {
+            font-size: 80px;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .a {
+            color: black;
+            text-align: center;
+            width: 100px;
+            /* border: 2px solid white; */
+            text-decoration: none;
+        }
+        h6{
+            margin-top:-20px;
+        }
+
+        .main{
+            
+            /* border: 2px solid white; */
+            display: flex;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .main>div
+        {
+            width: 95vw;
+            /* border: 2px solid white; */
+            text-align: center;
+        
+        }
+        button{
+            background-color: black;
+            color: white;
+            /* border: 2px solid white; */
+            padding: 10px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .footer{
+            display: flex;
+            width:95vw;
+            justify-content:space-evenly;
+            align-content: space-evenly;
+            margin:5px;
+            gap: 10px;
+        }
+        .services{
+            text-decoration: none;
+            border: 2px solid white;
+            width: 25vw;
+            text-align: center;
+        }
+        .connect{
+            border: 2px solid white;
+            width: 25vw;
+            text-align: center;
+        }
+        .contact{
+            text-align: center;
+            border: 2px solid white;
+            width: 25vw;
+        }
+
+        h3
+        {
+        color: black;
+         padding-left: 20px;
+        /* text-decoration: underline; */
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: capitalize;
+        }
+
+        .foot{
+            display: flex;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+            gap: 10px;
+            margin: 10px;    
+        }
+
+        @media (orientation:portrait)
+         {
+            body{
+                content:"";
+                height: fit-content;
+                width: fit-content;
+            }
+            .footer{
+                content:"";
+                height: fit-content;
+                width: fit-content;
+            }
+            .foot{
+                content:"";
+                height: fit-content;
+                width: fit-content;
+            }  
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./New folder/WhatsApp Image 2025-02-15 at 19.48.44_26ccbb55.jpg" alt="logo" height="100px"
+                width="100px">
+        </div>
+        <div class="name">
+            <h1>Krish Digi Media</h1>
+            <h3>WELCOME TO THE WORLD OF DIGITAL MARKETING..</h3>
+            <h6 style="font-weight:10px;">UNTANGLE THE WEB WITH US</h6>
+        </div>
+    </header>
+    <hr>
+    <div class="slide">
+        <nav>
+            <a href="welcome.html" class="a">Weclome</a>
+            <a href="plan.html" class="a">Plans</a>
+            <a href="aboutme.html" class="a">About Us</a>
+            <a href="contact.html" class="a">Connect with Us</a>
+        </nav>
+    </div>
+    <hr>
+    <h2>WHAT I DO: YOUR GROWTH,MY PRIORITY</h2>
+    <main>
+        Best Plans for your Business
+        <div class="main">
+            
+            <div>
+                <h2>Growth as a Service</h2>
+                <img src="./New folder/Screenshot_20-2-2025_212549_growth.cx.jpeg" alt="Growth" height="300px" width="300px">
+                <h3>Best for Startups and Side Projects that don’t have a high budget to set up their marketing team.</h3>
+                <button>See More</button>
+            </div>
+            <div>
+                <h2>SEO and Content</h2>
+                <img src="./New folder/Screenshot_20-2-2025_21360_growth.cx.jpeg" alt="SEO" height="300px" width="300px">
+                <h3>Best for companies struggling to improve qualified website visits with quality content.</h3>
+                <button>See More</button>
+            </div>
+            <div>
+                <h2>Content Marketing</h2>
+                <img src="./New folder/Screenshot_20-2-2025_213957_growth.cx.jpeg" alt="content" height="300px" width="300px">
+                <h3>Best for Startups/companies searching for quality content.</h3>
+                <button>See More</button>
+            </div>
+        </div>
+    </main>
+    
+</body>
+<footer>
+    <div class="footer">
+    <div class="services">
+        <h3>Services</h3>
+        <ul style="list-style:none;">
+            <li>Saas SEO</li>
+            <li>Content Marketing</li>
+            <li>Performance Marketing</li>
+            <li>Email Marketing</li>
+            <li>Web Development</li>
+            <li>Product Marketing</li>
+        </ul>
+    </div>
+        <div class="connect">
+            <h3>Connect</h3>
+            <ul style="list-style:none;">
+                <li>Facebook</a></li>
+                <li>Instagram</li>
+                <li>Linkedin</li>
+                <li>Youtube</li>
+                <li>Gmail</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h3>Headquaters</h3>
+            <p>Near Whats Up</p>
+            <p>Saravanampatti</p>
+            <p>Coimbatore</p>
+            <p>641035</p>
+        </div>
+    </div>
+        </footer>
+<hr>
+<div class="foot">
+    <a href="https://www.instagram.com/kmuralikrish4/?hl=en"><img src="./New folder/icons8-facebook-logo-50.png"
+            alt="facebook" height="30px"></a>
+    <a href="https://www.instagram.com/kmuralikrish4/?hl=en"><img src="./New folder/icons8-linkedin-48.png"
+            alt="linkdenin" height="30px"></a>
+    <a href="https://www.instagram.com/kmuralikrish4/?hl=en"><img src="./New folder/icons8-instagram-logo-94.png" alt="instagram" height="30px"></a>
+    <a href=""><img src="./New folder/icons8-gmail-logo-50.png" alt="gmail" height="30px"></a>
+    <a href="https://www.youtube.com/@krishdigimedia"><img src="./New folder/icons8-youtube-50.png"
+            alt="youtube" height="30px"></a>
+</div>
+</html>

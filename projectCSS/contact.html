@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            color: rgb(128, 67, 152);
+            text-align: center;
+            font-size:40px;
+            font-weight: bold;
+            padding: 20px;
+            font-family: "Arial",sans-serif;
+        }
+        body{
+            background-color:wheat;
+            color: black;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            
+        }
+        .form
+        {
+            background-color: rgba(128, 128, 128, 0.61);
+            height: 60vh;
+            width: 50vh;
+            display: flex;
+            justify-content: center;
+            padding: auto;
+            margin-left: 39%;
+            align-items: center;
+            font-family: "Mulish",sans-serif;
+            border: 2px solid black;
+        }
+        main{
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        @media (orientation:portrait) {
+            body{
+                content:"";
+                height: fit-content;
+                width: fit-content;
+            }
+            
+        }
+    </style>  
+</head>
+
+<body>
+    <!-- <header>Connect To What Counts</header> -->
+    <header> <u>Contact US </u></header>
+    <main>
+        <h2>Get In Touch With Us</h2> 
+        <p>For any Inquiries,Contact</p>
+    </main>
+<div class="form">
+    <form action=""0>
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        border: 2px solid whitesmoke;
+        background-color:wheat;
+        height:auto;
+        font-family: Arial, sans-serif;
+        padding:10px;
+    }
+    h1{
+        text-align: center;
+        color: rgb(128, 67, 152);
+    }
+
+    .profile{
+        border-radius:2px solid black;
+        height:350px;
+        width:300px;
+        margin: auto;
+        display: block;
+        text-align: center;
+
+    }
+    p::first-letter{
+        padding-left: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .persons
+    {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .person{
+        width:250px;
+        height:50%;
+        border: 2px solid;
+        border-radius: 25%;
+        margin:10px;
+        text-align: center;
+    }
+    .h3{
+        text-align: center;
+        font-weight: bold;
+    }
+    img
+    {
+        margin: 10%;
+        display: block;
+        border: 2px solid wheat;
+        height:200px;
+        width:200px;
+        border-radius:30%;
+    }
+    @media (orientation:portrait) {
+            body{
+                content:"";
+                height: fit-content;
+                width: fit-content;
+            }    
+        }
+</style>
+</head>           
+<body>
+   <h1><u>About Us</u></h1> 
+   <div class="content">
+
+<div class="profile">
+   <img src="./New folder/krish.jpg" alt="human">
+   <h3>K Murali Krishna CEO</h3>
+
+</div>
+   <p>
+    I believe every business has the potential to shine, and I’m here to help you
+    make that happen. As a passionate Digital Marketing Agent, my goal is to
+    partner with you in transforming your vision into reality. Whether you're
+    starting from scratch or looking to take your business to the next level, I craft
+    personalized strategies that not only drive results but also build meaningful
+    connections with your audience.</p>
+    <p>
+    I specialize in creating compelling content that speaks to your audience,
+    elevating your online presence through effective SEO, and running targeted
+    social media and search engine campaigns that bring in the right people.
+    Beyond just driving traffic, I focus on turning that traffic into real leads and
+    lasting customers. From designing beautiful websites that reflect your brand to
+    crafting emails that engage and convert, I am here to help you every step of
+    the way.</p>
+    <p>
+    But what sets me apart? I genuinely care about your business and your
+    success. I’m not just here to provide a service; I’m here to work with you and
+    grow alongside your brand. Let’s take that leap together and make something
+    extraordinary. Are you ready to start?</p>
+</div>
+<hr>
+<h3 style="text-align: center; font-weight: bold;">PARTNERS</h3>
+<div class="persons">
+    <div class="person"><img src="./New folder/ashin.jpg" alt="person1">Data Analytics</div>
+    <div class="person"><img src="./New folder/karthick.jpg" alt="person2">Data Structures</div>
+    <div class="person"><img src="./New folder/mukesh.jpg" alt="person3">Web designer</div>
+    <div class="person"><img src="./New folder/krish.jpg" alt="person4">Marketing</div>
+    <div class="person"><img src="./New folder/pu.jpg" alt="person5">Ethical Hacker</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo {
+            height: 50px;
+            width: 50px;
+            border-radius: 20%;
+            float: left;
+        }
+
+        h1 {
+            margin-bottom: -15px;
+            margin-right: 50px;
+            color: black;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        h2 {
+            color: rgb(60, 50, 35);
+        }
+
+        h3 {
+            color: black;
+            text-align: center;
+            font-size: smaller;
+        }
+
+        body {
+            background-color: rgb(240, 224, 193);
+            color: white;
+            width: 100%;
+            /* height: 100vh; */
+            font-family: Arial, sans-serif;
+        }
+
+        .plan {
+            border: 2px solid black;
+            width: auto;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .plan>.card {
+            text-align: center;
+            margin: 5px;
+            padding: 10px;
+            width: 350px;
+            height: 350px;
+            border: 2px solid;
+        }
+
+        img {
+            border: 2px solid white;
+            height: 180px;
+            width: 200px;
+            margin: auto;
+            display: block;
+        }
+
+        button {
+            border-radius: 25%;
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            padding: 10px;
+            margin: 10px;
+            cursor: pointer;
+
+        }
+
+        .card>.sell {
+            background: linear-gradient(to right, red, blue);
+            background-clip: text;
+            color: transparent;
+            margin: -20px;
+            font-size: smaller;
+            animation-name: sells;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        .img5{
+            height:200px;
+            width:300px;
+            background-image: url("./teaching1.jpg");
+            background-size:cover;
+            border: 2px solid black;
+            
+        }
+        .img5:hover{
+            animation: teach 2s ease-in-out 1s;
+        }
+
+        @keyframes teach {
+            from {
+                opacity: 0;
+                background-size:cover;
+                background-image: url("./teaching1.jpg");
+            }
+
+            to {
+                opacity: 1;
+                background-size:cover; 
+                background-image: url("./teaching2.jpg");
+            }
+        }
+
+        @keyframes sells {
+            from {
+                transform: translate(-120px);
+                /* transform: translate(100px); */
+            }
+
+            to {
+                transform: translate(120px);
+                /* transform: translate(right); */
+            }
+        }
+
+        @media (orientation:portrait) {
+            body {
+                content: "";
+                height: fit-content;
+                width: fit-content;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img class="logo" src="./New folder/WhatsApp Image 2025-02-15 at 19.48.44_26ccbb55.jpg" alt="logo" height="100px"
+        width="100px">
+    <header>
+        <h1>There’s no plan B</h1>
+        <h3>Because your marketing journey is going to take off with the best plan.</h3>
+    </header>
+    <div class="plan">
+        <div class="card">
+            <div class="sell">
+                <h2>Best Sell</h2>
+            </div>
+            <div class="card-info">
+                <h2>Growth as a Service</h2>
+                <img src="./New folder/Screenshot_20-2-2025_212549_growth.cx.jpeg" alt="Growth" height="300px"
+                    width="300px">
+                <h3>Best for Startups and Side Projects that don’t have a high budget to set up their marketing team.
+                </h3>
+                <button>Buy</button>
+            </div>
+        </div>
+        <div class="card ">
+            <div class="card-info">
+                <h2>SEO and Content</h2>
+                <img src="./New folder/Screenshot_20-2-2025_21360_growth.cx.jpeg" alt="SEO">
+                <h3>Best for companies struggling to improve qualified website visits with quality content.</h3>
+                <button>Buy</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-info">
+                <h2>Content Marketing</h2>
+                <img src="./New folder/Screenshot_20-2-2025_213957_growth.cx.jpeg" alt="content">
+                <h3>Best for Startups/companies searching for quality content.</h3>
+                <button>Buy</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-info">
+                <h2>Performance Marketing</h2>
+                <img src="./New folder/Screenshot_20-2-2025_222641_growth.cx.jpeg" alt="Performance">
+                <h3>Best for setting up ads, content marketing, SEO , and email campaigns to attract more SaaS
+                    customers.</h3>
+                <button>Buy</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-info">
+                <h2>Web Hosting</h2>
+                <div class="img5">
+                    <!-- <img src="../teaching2.jpg" alt="web" height="300px" width="300px"> -->
+                </div>
+                <h3>Best for startups who don’t have the expertise and budget.</h3>
+                <button>Buy</button>
+            </div>
+        </div>
+
+    <!-- <footer class="foot">
+        <a href="https://www.instagram.com/kmuralikrish4/?hl=en"><img src="./New folder/icons8-facebook-logo-50.png"
+                alt="facebook"></a>
+        <a href="https://www.instagram.com/kmuralikrish4/?hl=en"><img src="./New folder/icons8-linkedin-48.png"
+                alt="linkdenin"></a>
+        <a href="https://www.instagram.com/kmuralikrish4/?hl=en"><img src="./New folder/icons8-instagram-logo-94.png" alt="instagram" ></a>
+        <a href=""><img src="./New folder/icons8-gmail-logo-50.png" alt="gmail"></a>
+        <a href="https://www.youtube.com/@krishdigimedia"><img src="./New folder/icons8-youtube-50.png"
+                alt="youtube"></a>
+</footer> -->
+</body>
+
+
+</html>
